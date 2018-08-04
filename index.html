@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8" />
+
+        <!-- tags comportamento-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- bootstrap cdn-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <!-- font google -->
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Oswald" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+        <!-- link CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <title>Merlin's Potions</title>
+
+    </head>
+    <body>
+        
+        <!-- NAV 1-->
+        <nav class="navbar navbar-expand static-top navbar-light bg-light">
+            <button class="navbar-toggler d-block d-md-none d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand navbar-text d-block nav-link" href="#">
+                <p class="titu mb-0 pb-0 ml-4 font-weight-light" href="#"><label class="font-weight-bold">Merlin's</label> Potions</p>
+                <p class="subtitu mt-0 pt-0 ml-4"> -- fine potions since 1026 --</p>
+            </a>
+            <form class="d-none d-md-inline-block form-inline mx-auto">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search our stock..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-expand navbar-right">
+                <li class="nav-item">
+                    <span class="text-nowrap font-italic titu2 d-none d-md-block d-lg-block ml-auto mr-0 mr-md-5 my-0 my-md-3">
+                        Free shipping<br />
+                        <label class="titu3 mr-0"> on orders over $50</label>
+                    </span>
+                </li>
+                <li class="nav-item">
+                       <div class="nav-link text-nowrap ml-auto mr-0 mr-md-5 my-2 my-md-2">
+                            <img class="cal" src="img/caldeirao.png" width="50px">
+                            <label class="mer titu2">BAG:</label>01
+                        </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- NAV 2-->
+        <nav class="navbar navbar-expand-lg justify-content-between nav-2 text-white">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item d-none d-md-none d-block d-sm-none">
+                            <form class="form-inline mx-auto col-6">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search our stock..." aria-label="Search" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form> 
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Potions
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Aging Potion</a>
+                            <a class="dropdown-item" href="#">Bulgeye Potion</a>
+                            <a class="dropdown-item" href="#">Dragon Tonic</a>
+                            <a class="dropdown-item" href="#">Love Potion</a>
+                            <a class="dropdown-item" href="#">Polyjuice Potion</a>
+                            <a class="dropdown-item" href="#">Sleeping Draught</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ingredients
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Aging Potion</a>
+                            <a class="dropdown-item" href="#">Bulgeye Potion</a>
+                            <a class="dropdown-item" href="#">Dragon Tonic</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Books
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Aging Potion</a>
+                            <a class="dropdown-item" href="#">Bulgeye Potion</a>
+                            <a class="dropdown-item" href="#">Dragon Tonic</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Supplies
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Supp1</a>
+                            <a class="dropdown-item" href="#">Supp2</a>
+                            <a class="dropdown-item" href="#">Supp3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Charms
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Charms1</a>
+                            <a class="dropdown-item" href="#">Charms2</a>
+                            <a class="dropdown-item" href="#">Charms3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn navbar-btn">Clearance!</button>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item inline">
+                        <a class="nav-link font-italic" href="#">Sign In or Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- fim nav -->
+
+        <div class="container-fluid bg-1">
+            <h1 class="titu4">Potions</h1>
+        </div>
+
+        <div class="container-fluid bg-2 text-center">
+            <div class="row box">
+                
+                <!--1 img-->
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/aging-potion.png" onclick="openModal()" class="media-object" width="50%" />
+                        <div class="caption">
+                            <p>Aging Potion <label class="preco2">$29.90</label></p>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal" role="dialog">
+                        <div class="modal-dialog">
+                            <!--Conteudo modal-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="img/aging-potion.png" width="100%" />
+                                        </div>
+                                        <div class="col-6 text-left">
+                                            <h2>Aging Potion</h2>
+                                            <br />
+                                            <h2>Effect:</h2>
+                                            <p>The drinker to advance in age</p>
+                                            <h2>Ingredients:</h2>
+                                            <p>
+                                                Red Wine,  Prune Juice, Hairy Fungus,
+                                                Tortoise Shell, Caterpillar, Bat Tongue
+                                            </p>
+                                            <h2>Price:</h2>
+                                            <p class="preco">$29.90</p>
+                                            <button type="button" class="btn btn-default btn2">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default btn2" data-dismiss="modal" onclick="closeModal()">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--2 img-->
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/bulgeye-potion.png" class="media-object" onclick="openModal2()" width="50%" />
+                        <div class="caption">
+                            <p>Bulgeye Potion <label class="preco2">$19.90</label></p>
+                        </div>
+                    </div>
+                    <div id="myModal_2" class="modal" role="dialog">
+                        <div class="modal-dialog">
+                            
+                            <!--Conteudo modal-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close cursor" onclick="closeModal2()">&times;</span>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="img/bulgeye-potion.png" width="100%" />
+                                        </div>
+                                        <div class="col-6 text-left">
+                                            <h2>Bulgeye Potion</h2>
+                                            <br />
+                                            <h2>Effect:</h2>
+                                            <p>It affects one's eyes, causing them to swell</p>
+                                            <h2>Ingredients:</h2>
+                                            <p>
+                                                Beetle eyes,  Eel eyes
+                                            </p>
+                                            <h2>Price:</h2>
+                                            <p class="preco">$19.99</p>
+                                            <button type="button" class="btn btn-default btn2">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default btn2" data-dismiss="modal" onclick="closeModal()">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--3 img-->
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/dragon-tonic.png" class="media-object" onclick="openModal3()" width="50%" />
+                        <div class="caption">
+                            <p>Dragon Tonic Potion <label class="preco2">$64.99</label></p>
+                        </div>
+                    </div>
+                    <div id="myModal_3" class="modal" role="dialog">
+                        <div class="modal-dialog">
+                            
+                            <!--Conteudo modal-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close cursor" onclick="closeModal3()">&times;</span>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <img src="img/dragon-tonic.png" width="100%" />
+                                        </div>
+                                        <div class="col-6 text-left">
+                                            <h2>Dragon Tonic Potion</h2>
+                                            <br />
+                                            <h2>Effect:</h2>
+                                            <p>A tonic used to cure sick dragons</p>
+                                            <h2>Ingredients:</h2>
+                                            <p>
+                                                Eagle Owl feathers,  Peacock feathers, Giant Purple Toad warts
+                                            </p>
+                                            <h2>Price:</h2>
+                                            <p class="preco">$64.99</p>
+                                            <button type="button" class="btn btn-default btn2">ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default btn2" data-dismiss="modal" onclick="closeModal()">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- row 2-->
+            <!--4 img-->
+            <div class="row box">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/love-potion.png" class="media-object" width="50%" />
+                        <div class="caption">
+                            <p>Love Potion <label class="preco2">$29.99</label></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--5 img-->
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/polyjuice-potion.png" class="media-object" width="50%" />
+                        <div class="caption">
+                            <p>Polyjuice Potion <label class="preco2">$99.99</label></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--6 img-->
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/sleeping-draught.png" class="media-object" width="50%" />
+                        <div class="caption">
+                            <p>Sleeping Draught Potion <label class="preco2">$14.99</label></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="container-fluid bg-3 text-left">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="foot1 font-weight-light">
+                        <p><a class="link ml-0" href="#">CONTACT US</a><a class="link" href="#">COMPANY</a><a class="link" href="#">SHIPPING</a></p>
+                        <p><a class="link ml-0" href="#">RETURNS</a><a class="link" href="#">CARRERS</a></p>
+                        <div class="icons">
+                            <span style="font-size: 2em; color: #563069;">
+                                <i class="fab fa-facebook-square"></i>
+                            </span>
+                            <span style="font-size: 2em; color: #563069;">
+                                <i class="fab fa-twitter-square"></i>
+                            </span>
+                            <span style="font-size: 2em; color: #563069;">
+                                <i class="fab fa-pinterest-square"></i>
+                            </span>
+                            <span style="font-size: 2em; color: #563069;">
+                                <i class="fab fa-tumblr-square"></i>
+                            </span>
+                            <span style="font-size: 2em; color: #563069;">
+                                <i class="fab fa-google-plus-square"></i>
+                            </span>
+                        </div>
+                        <br />
+                        <p>2015 Merlin's Potions. All Rights Reserved</p>
+                    </div>
+                </div>
+                <!-- box newsletter -->
+                <div class="col-md-5">
+                    <div class="signup rounded mr-5 ml-0 my-5 pl-3 py-3">
+                        <p class="font-italic font-weight-bold">Sign up for our newsletter</p>
+                        <p>Sign up for our newsletter and get exclusive discounts!</p>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Enter your email" aria-label="Search">
+                            <button class="btn btn-outline btn2 my-2 my-sm-0" type="submit">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="js/java.js"></script>
+    </body>
+</html>
